@@ -215,3 +215,7 @@ app_license = "MIT"
 # auth_hooks = [
 #	"custom_app_test.auth.validate"
 # ]
+
+fixtures = [
+    {"dt": "DocType", "filters": [["name", "=", "Bike"]]}
+]
