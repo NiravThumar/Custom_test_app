@@ -227,7 +227,7 @@ fixtures = [
     {
         "dt": "Print Format",
         "filters": [
-            ["name", "=", "Testing House"]
+        ["name", "in", ["Testing House", "Testing Laptop"]]
         ]
     }
 
