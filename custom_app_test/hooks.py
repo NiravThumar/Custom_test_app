@@ -217,5 +217,11 @@ app_license = "MIT"
 # ]
 
 fixtures = [
-    {"dt": "DocType", "filters": [["name", "=", "Bike"]]}
+    {"dt": "DocType", "filters": [["name", "=", "Bike"]]},
+     {
+        "dt": "Custom Field",
+        "filters": [
+            ["name", "=", "custom_print_heading_test"]
+        ]
+    }
 ]
