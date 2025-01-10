@@ -221,7 +221,14 @@ fixtures = [
      {
         "dt": "Custom Field",
         "filters": [
-            ["name", "=", "custom_print_heading_test"]
+            ["label", "=", "Print heading test"]
+        ]
+    },
+    {
+        "dt": "Print Format",
+        "filters": [
+            ["name", "=", "Testing House"]
         ]
     }
+
 ]
